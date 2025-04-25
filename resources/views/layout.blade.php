@@ -59,6 +59,10 @@
                             <div class="sb-nav-link-icon active"><i class="fa-solid fa-chalkboard-user"></i></div>
                             Guru
                         </a>
+                        <a class="nav-link {{ Route::is('staff.tampil') ? 'active' : '' }}" href="{{ route('staff.tampil') }}">
+                            <div class="sb-nav-link-icon active"><i class="fa-solid fa-chalkboard-user"></i></div>
+                            Staff
+                        </a>
                         <!-- <div class="sb-sidenav-menu-heading">Interface</div>
                         <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                             <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>

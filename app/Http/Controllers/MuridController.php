@@ -7,13 +7,7 @@ use Illuminate\Http\Request;
 
 class MuridController extends Controller
 {
-    function jumlahSiswa() {
-        $jumlahSiswa = Siswa::count();
-        
-        return view('welcome', compact('jumlahSiswa'));
-        
-    }
-    
+   
     function tampil() {
         $siswa = Siswa::get();
         return view('siswa.tampil', compact('siswa'));
