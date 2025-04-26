@@ -11,7 +11,7 @@
         <li class="breadcrumb-item active">Dashboard</li>
     </ol>
     <div class="row">
-        <div class="col-xl-3 col-md-6">
+        <div class="col-xl-4 col-md-6">
             <div class="card bg-success text-white mb-4">
                 <div class="card-body fw-bold">
                     <img width="45" height="45" src="https://img.icons8.com/color/48/ours.png" 
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-3 col-md-6">
+        <div class="col-xl-4 col-md-6">
             <div class="card bg-success text-white mb-4">
                 <div class="card-body fw-bold">
                     <img width="45" height="45" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/50/external-teacher-event-management-flaticons-lineal-color-flat-icons.png" 
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-3 col-md-6">
+        <div class="col-xl-4 col-md-6">
             <div class="card bg-success text-white mb-4">
                 <div class="card-body fw-bold">
                     <img width="45" height="45" src="https://img.icons8.com/color/48/user-group-man-woman.png"
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-xl-3 col-md-6">
+        <!-- <div class="col-xl-3 col-md-6">
             <div class="card bg-danger text-white mb-4">
                 <div class="card-body">Danger Card</div>
                 <div class="card-footer d-flex align-items-center justify-content-between">
@@ -55,7 +55,7 @@
                     <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="row">
         <div class="col-xl-6">

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthAdminController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\GuruController;
 use App\Http\Controllers\MuridController;
@@ -13,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 // Dashboard
 Route::get('/', [DashboardController::class, 'jumlah'])->name('dashboard');
 
+// Register Admin
+Route::get('/adminRegister', [AuthAdminController::class, 'tampilAdminRegister'])->name('tampil.adminRegister');
+Route::post('/adminRegister/tambah', [AuthAdminController::class, 'tambahAdmin'])->name('tambah.admin');
+
+Route::get('/adminLogin', [AuthAdminController::class, 'tampilAdminLogin'])->name('tampil.adminLogin');
+Route::post('/adminLogin/login', [AuthAdminController::class, 'loginAdmin'])->name('login.admin');
 
 // Siswa
 Route::get('/siswa', [MuridController::class, 'tampil'])->name('siswa.tampil');

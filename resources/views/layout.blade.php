@@ -117,9 +117,11 @@
                         </a> -->
                     </div>
                 </div>
-                <div class="sb-sidenav-footer">
+                <div class="sb-sidenav-footer text-white">
                     <div class="small">Logged in as:</div>
-                    Akun Admin
+                    @if (Auth::check())
+                    Admin {{ Auth::user()->name }}
+                    @endif
                 </div>
             </nav>
         </div>
